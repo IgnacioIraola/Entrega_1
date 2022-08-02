@@ -1,7 +1,10 @@
-let ingresoDeEdad = (Number(prompt ("Ingrese su edad")))
+let producto = prompt ("Ingresar producto o escriba 'fin' para terminar");
 
-if (ingresoDeEdad < 18){
-    alert("No puedes ingresar sos menor de edad")
-}else{
-    alert("Sos mayor de edad, Bienvenido")
+while(producto != "fin"){
+
+    alert("Producto ingresado " + producto);
+
+    producto = prompt("Ingresar otro Producto o escriba 'fin' para terminar");
 }
+
+
